@@ -1,24 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import './componentes/Banner/Banner.js'
+import Banner from './componentes/Banner/Banner.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        Banner()
+        <Banner></Banner>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Banner colocado com JSX
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
