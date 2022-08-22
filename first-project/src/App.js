@@ -1,16 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Banner from './componentes/Banner/Banner.js';
+import Banner from './componentes/Banner';
+import CampoTexto from './componentes/CampoTexto';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Banner></Banner>
-        <p>
-          Banner colocado com JSX
-        </p>
-      </header>
+    <div className='App'>
+        <Banner/>
+        <CampoTexto/>
     </div>
   );
 }
