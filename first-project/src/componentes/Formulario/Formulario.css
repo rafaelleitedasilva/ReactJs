@@ -6,9 +6,14 @@
 
 .Formulario form{
     border-radius: 20px;
+    width: 60vw;
     padding: 30px;
     color: #6278f7;
-    background-color: rgba(211, 211, 211, 0.603);
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.493);
-    font-family:'Lucida Sans', Arial, sans-serif;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.61);
+    background-color: rgba(211, 211, 211, 0.336);
+}
+
+.Formulario h2{
+    text-align: center;
+    font-weight: normal;
 }
